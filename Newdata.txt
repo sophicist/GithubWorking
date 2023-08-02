@@ -1,0 +1,10 @@
+# rolbacks in git
+- you can use a git revert command
+- git log -p -2
+git show commit id
+- create a branch "git branch new_branch"
+- we can delete braches  git branch -d branch_names
+- we can use the git merge branch
+- git log --graph --oneline as a graph
+- git merge --abort
+ssh -i qwiklabs-L65367172.pem student-00-79bec63be5f8@External 35.227.8.91
