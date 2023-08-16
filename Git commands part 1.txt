@@ -1,0 +1,24 @@
+cat arrangement.py - reads the file in terminal
+diff -u (shaows in a different format) version1 and version2 gives changes between two files
+use patch to addchanges from diff file tothe original eg patch cpu_usage.py <cpu_ussage.diff
+cp copies files on the machine
+ls -la
+ls -l .git/
+git config -l
+chmod +x file.py  - make it executable (linux)
+commit messages should - detailed
+git log 
+
+git commit -a -m "message" # adds all chnages but only for tracked files
+git log -p (patches with changes that were made within our code)
+git show ID and git log --stat
+git diff (show changes that weree made)
+git add -p
+git rm removes some files ls -l
+git mv renames files
+ls -la shows even hidden files
+git checkout file reverts staged files to their previous status
+git reset also helps
+git --amend (fixes a commit)
+git revert head reverts to previous commit
+git log -p 2
