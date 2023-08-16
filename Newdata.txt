@@ -5,6 +5,25 @@ git show commit id
 - create a branch "git branch new_branch"
 - we can delete braches  git branch -d branch_names
 - we can use the git merge branch
-- git log --graph --oneline as a graph
+- git log --graph --oneline optional(--all)as a graph
 - git merge --abort
 ssh -i qwiklabs-L65367172.pem student-00-79bec63be5f8@External 35.227.8.91
+
+- check the remotes git remote -v
+git remote show origin
+
+git log origin/master -  check whether some changes were made to the rem,ote repo
+git fetch , git merge origin.main
+git log -p -1
+git remote show origin ( for new branches)  -  git checkout branchname
+git add -p
+GIT REBASE CANBE USED INSTEAD OF MERGE  -  EG GIT REBASE MASTER - THE GIT MERGE REFACTOR 
+delete the online branch : GIT PUSH --DELETE ORIGIN BRANCHNAME
+- IN CASE OF CONFLICS RESOLVE THE CONFLICTS AND THEN "GIT REBASE --CONTINUE
+	
+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
+git push -f ( forced an update)
+git squash can combine pull requests
+
+- set upstream for a git repo 
+git remote add upstream https://github.com/[git-username]/it-cert-automation-practice.git
