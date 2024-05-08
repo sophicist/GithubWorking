@@ -19,6 +19,7 @@ git mv renames files
 ls -la shows even hidden files
 git checkout file reverts staged files to their previous status
 git reset also helps
+git reset --soft HEAD~1 # resets the commit to the previous commit
 git --amend (fixes a commit)
 git revert head reverts to previous commit
 git log -p 2
